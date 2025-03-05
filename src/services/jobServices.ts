@@ -1,14 +1,10 @@
-const BASE_URL = process.env.BASE_URL;
+import jobs from "@/data/jobs.json";
+import { JobType } from "@/lib/types";
 
-export async function fetchJobs() {
-  try {
-    const response = await fetch(`${BASE_URL}/api/jobs`);
-    if (!response.ok) throw new Error("Error fetching jobs");
-
-    const data = await response.json();
-    return { jobs: data, error: null };
-  } catch (err) {
-    const error = err as Error;
-    return { jobs: [], error: error.message };
-  }
+export async function fetchJobs(): Promise<JobType[]> {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(jobs);
+    }, 1000);
+  });
 }
