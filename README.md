@@ -1,36 +1,152 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Powered Job Match Dashboard
 
-## Getting Started
+An AI-driven job recommendation platform built with **Next.js 15**, **React**, and **Tailwind CSS**, featuring job match scores based on user skills.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
+✅ Fetches and displays job listings dynamically  
+✅ Calculates **job match scores** based on user skills  
+✅ Provides a **responsive UI** with Tailwind CSS  
+✅ Displays **job details in a modal**  
+✅ Handles **job applications with skill validation**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 15, React, Tailwind CSS
+- **State Management**: React useState
+- **TypeScript** for better type safety
+
+---
+
+## 📂 Folder Structure
+
+```
+/job-match-dashboard
+│── /src
+│   ├── /app
+│   │   ├── layout.tsx  # Main layout for the app
+│   │   ├── page.tsx  # Homepage with JobList
+│   ├── /components
+│   │   ├── ApplyButton.tsx  # Handles job applications
+│   │   ├── Job.tsx  # Displays individual job card
+│   │   ├── JobDetails.tsx  # Displays job details in a modal
+│   │   ├── JobList.tsx  # Lists job recommendations
+│   │   ├── LoadingIndicator.tsx  # Displays a loading indicator
+│   │   ├── MatchScore.tsx  # Visualizes job match score
+│   ├── /data
+│   │   ├── jobs.json  # Mock job data for local testing
+│   ├── /styles
+│   │   ├── globals.css  # Tailwind global styles
+│   ├── /lib
+│   │   ├── utils.ts  # Helper functions
+│   │   ├── types.ts  # Type definitions for TypeScript
+│── next.config.js
+│── package.json
+│── tailwind.config.js
+│── tsconfig.json
+│── README.md
+```
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```sh
+git clone https://github.com/greatochuko/job-match-dashboard.git
+cd job-match-dashboard
+```
+
+### 2️⃣ Install dependencies
+
+```sh
+npm install
+# or
+yarn install
+```
+
+### 3️⃣ Run the development server
+
+```sh
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at **`http://localhost:3000`** 🚀.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Key Components
 
-## Learn More
+### 🔹 **`JobList.tsx`**
 
-To learn more about Next.js, take a look at the following resources:
+Fetches job listings and displays them.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔹 **`JobDetails.tsx`**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Shows job details in a modal.
 
-## Deploy on Vercel
+### 🔹 **`MatchScore.tsx`**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Calculates and displays match scores dynamically.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔹 **`ApplyButton.tsx`**
+
+Validates if the user has the required skills before applying.
+
+---
+
+### **🌎 Deployment**
+
+To deploy the project on **Vercel**, follow these steps:
+
+1️⃣ **Push Your Code to GitHub**  
+Ensure your code is committed and pushed to a GitHub repository.
+
+```sh
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
+
+2️⃣ **Create a New Deployment on Vercel**
+
+- Go to [Vercel](https://vercel.com/) and log in.
+- Click **"New Project"** and import your GitHub repository.
+- Configure the build settings (**Next.js is auto-detected**).
+- Click **"Deploy"** and wait for the process to complete.
+
+3️⃣ **Get Your Live URL**  
+Once deployed, Vercel will provide a live link (e.g., `https://your-app.vercel.app`).
+
+---
+
+## 🤝 Contribution Guide
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m "Added new feature"`)
+4. Push to your branch (`git push origin feature-name`)
+5. Open a pull request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📞 Contact
+
+For any questions, reach out:  
+📧 Email: [greatochuko123@gmail.com](mailto:greatochuko123@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/greatochuko](https://linkedin.com/in/greatochuko)
+
+---
+
+### 🚀 Happy Coding! 🎉
