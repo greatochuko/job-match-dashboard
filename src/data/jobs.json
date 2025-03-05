@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "Tech Corp",
+    "location": "Remote",
+    "salary": "$70,000 - $90,000",
+    "requiredSkills": ["React", "Next.js", "JavaScript", "Tailwind CSS"],
+    "matchScore": 85
+  },
+  {
+    "id": 2,
+    "title": "UI Engineer",
+    "company": "DesignPro",
+    "location": "New York, USA",
+    "salary": "$80,000 - $100,000",
+    "requiredSkills": ["Figma", "React", "CSS", "Tailwind CSS"],
+    "matchScore": 70
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Developer",
+    "company": "StartupX",
+    "location": "San Francisco, USA",
+    "salary": "$90,000 - $120,000",
+    "requiredSkills": [
+      "React",
+      "Next.js",
+      "MongoDB",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "matchScore": 25
+  },
+  {
+    "id": 4,
+    "title": "Backend Developer",
+    "company": "DataSoft",
+    "location": "London, UK",
+    "salary": "$85,000 - $110,000",
+    "requiredSkills": ["Node.js", "Express", "PostgreSQL", "GraphQL"],
+    "matchScore": 0
+  },
+  {
+    "id": 5,
+    "title": "Mobile App Developer",
+    "company": "AppMasters",
+    "location": "Berlin, Germany",
+    "salary": "$75,000 - $95,000",
+    "requiredSkills": ["React Native", "TypeScript", "Firebase"],
+    "matchScore": 25
+  },
+  {
+    "id": 6,
+    "title": "Software Engineer",
+    "company": "CodeCraft",
+    "location": "Toronto, Canada",
+    "salary": "$88,000 - $105,000",
+    "requiredSkills": ["JavaScript", "React", "Django", "AWS"],
+    "matchScore": 50
+  },
+  {
+    "id": 7,
+    "title": "DevOps Engineer",
+    "company": "Cloud Solutions",
+    "location": "Remote",
+    "salary": "$100,000 - $130,000",
+    "requiredSkills": ["Docker", "Kubernetes", "Terraform", "AWS"],
+    "matchScore": 0
+  },
+  {
+    "id": 8,
+    "title": "Machine Learning Engineer",
+    "company": "AI Innovators",
+    "location": "Boston, USA",
+    "salary": "$110,000 - $150,000",
+    "requiredSkills": ["Python", "TensorFlow", "JavaScript"],
+    "matchScore": 33
+  },
+  {
+    "id": 9,
+    "title": "Cybersecurity Analyst",
+    "company": "SecureNet",
+    "location": "Austin, USA",
+    "salary": "$85,000 - $115,000",
+    "requiredSkills": ["Cybersecurity", "Penetration Testing", "SIEM"],
+    "matchScore": 0
+  },
+  {
+    "id": 10,
+    "title": "Product Designer",
+    "company": "Creative Minds",
+    "location": "Los Angeles, USA",
+    "salary": "$95,000 - $120,000",
+    "requiredSkills": ["Figma", "Adobe XD", "UX Research"],
+    "matchScore": 0
+  },
+  {
+    "id": 11,
+    "title": "Game Developer",
+    "company": "NextGen Games",
+    "location": "Tokyo, Japan",
+    "salary": "$80,000 - $100,000",
+    "requiredSkills": ["Unity", "C#", "Blender", "JavaScript"],
+    "matchScore": 25
+  },
+  {
+    "id": 12,
+    "title": "Blockchain Developer",
+    "company": "CryptoTech",
+    "location": "Singapore",
+    "salary": "$120,000 - $160,000",
+    "requiredSkills": ["Solidity", "Ethereum", "Web3.js", "JavaScript"],
+    "matchScore": 25
+  }
+]
